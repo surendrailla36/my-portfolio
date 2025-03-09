@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surendranadh Illa - Portfolio</title>
+  <style>
+    /* 1. RESET & BASE STYLES */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    /* 2. HEADER */
+    header {
+      background: #444;      /* Dark gray background */
+      color: #fff;           /* White text */
+      display: flex;         /* Flex layout to position logo and nav */
+      align-items: center;   /* Vertically center items */
+      justify-content: space-between; /* Space between logo and nav */
+      padding: 1rem 2rem;    /* Adjust spacing around header content */
+    }
+    /* LOGO / NAME */
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+	  color: #ADD8E6;
+	  
+    }
+	.Heading {
+      font-size: 1.0rem;
+      font-weight: bold;
+	  color: #90EE90;
+	 
+    }
+
+    /* NAVIGATION MENU */
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;  /* Space between menu items */
+    }
+    nav ul li a {
+      color: #fff;           /* White text for links */
+      font-weight: bold;
+      transition: color 0.3s; /* Smooth color change on hover */
+    }
+    nav ul li a:hover {
+      color: #1abc9c;        /* Accent color on hover */
+    }
+
+    /* 3. SECTIONS */
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h1, h2, h3 {
+      margin-bottom: 1rem;
+    }
+	h4{
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+
+    /* HOME SECTION */
+    #home {
+      background: #f4f4f4;    /* Light gray background */
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    #home h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+	#about {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+#about h2 {
+  margin-bottom: 1rem;
+}
+#about ul {
+  margin-left: 1.5rem;
+  list-style-type: disc; /* Or whatever bullet style you prefer */
+}
+    #home p {
+      font-size: 1.2rem;
+    }
+    /* Make sure your image scales properly */
+    #home img {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+    }
+
+    /* PROJECTS SECTION */
+    #projects .project {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      background: #fff;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Surendranadh Illa</div>
+	<div class ="Heading">BI Developer & Data Analyst</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME SECTION -->
+  <section id="home">
+   
+	<img src="images/business_intelligence.jpg" alt="business_intelligence">
+   
+  </section>
+    <!-- About Section -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I’m a Business Intelligence Developer &amp; Data Analyst with 7+ years of experience designing and delivering data-driven solutions. My expertise spans a wide range of tools and technologies, including Qlik Sense, QlikView, Power BI, Tableau, SQL, and ETL processes. I also have experience in cloud platforms like AWS, and I utilize Git for efficient version control and collaboration.
+  </p>
+
+  <p>Throughout my career, I have:</p>
+  <ul>
+    <li>Developed enterprise-wide analytics platforms that empower leadership with real-time insights.</li>
+    <li>Optimized data pipelines and dashboard performance, ensuring quick and accurate data delivery.</li>
+    <li>Leveraged diverse tools to create visually compelling reports and interactive dashboards.</li>
+    <li>Collaborated with cross-functional teams to translate business requirements into impactful BI solutions.</li>
+    <li>Mentored junior team members in best practices for data visualization and analytics.</li>
+  </ul>
+<p>  </p>
+  <h2>
+    I am passionate about bridging the gap between raw data and actionable insights, and I continually adapt to new technologies in this ever-evolving field. If you’re looking for a results-driven professional to elevate your data analytics and BI strategy, let’s connect!
+  </h2>
+</section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <h2>Projects</h2>
+    
+    <div class="project">
+      <h3>Enterprise KPI Dashboard</h3>
+      <p>
+        Developed an enterprise-level dashboard for monitoring key performance indicators across multiple departments. Improved data retrieval performance and provided real-time insights to leadership.
+      </p>
+      <p><strong>Technologies:</strong> Qlik Sense, SQL, Data Modeling</p>
+    </div>
+
+    <div class="project">
+      <h3>Unified Reporting Solution</h3>
+      <p>
+        Created a comprehensive analytics solution that integrated data from various sources to streamline reporting processes, significantly reducing manual effort.
+      </p>
+      <p><strong>Technologies:</strong> QlikView, ETL Tools, Data Warehousing</p>
+    </div>
+
+    <div class="project">
+      <h3>Operational Metrics Visualizer</h3>
+      <p>
+        Designed a tailored dashboard for tracking operational metrics, providing executives with the insights needed to drive strategic decisions.
+      </p>
+      <p><strong>Technologies:</strong> Qlik Sense, Custom Visualizations</p>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <p>
+<p>
+Over the course of my professional journey, I have consistently delivered high-quality business intelligence solutions by designing and implementing enterprise-wide analytics platforms. I have embraced agile methodologies and modern development tools to ensure efficient collaboration, continuous improvement, and robust performance. My work includes:
+<p/>
+<p>
+<strong>Developing Scalable BI Applications:</strong><br>
+I have created comprehensive analytics solutions that integrate data from diverse sources—including cloud platforms like AWS—using leading tools such as Qlik Sense, QlikView, Power BI, and Tableau. This approach has enabled real-time insights and empowered decision-makers with strategic information.
+</p>
+<p>
+<strong>Implementing Agile Methodologies:</strong><br>
+I have adopted Agile and Scrum frameworks to manage projects effectively, working in iterative cycles that promote quick feedback and flexibility. This ensures that BI solutions are delivered on time and continuously improved based on evolving business needs.
+</p>
+<p>
+<strong>Utilizing Version Control with Git:</strong><br>
+By maintaining code repositories with Git, I have ensured smooth collaboration across teams, rigorous version control, and high-quality code management in all projects.
+</p>
+<p>
+<strong>Optimizing Data Processes:</strong><br>
+I streamlined ETL processes and improved data pipelines, enhancing data accuracy and reducing processing times. This optimization supports efficient reporting and better decision-making.
+</p>
+<p>
+<strong>Enhancing Data Visualization:</strong><br>
+I have designed visually compelling dashboards and interactive reports that transform complex data into actionable insights. My focus on user-friendly interfaces and effective data storytelling makes the information accessible to non-technical stakeholders.
+</p>
+<p>
+<strong>Collaborating Across Teams:</strong><br>
+I work closely with cross-functional teams—including business stakeholders, data engineers, and IT professionals—to translate complex business requirements into effective, data-driven solutions.
+</p>
+<p>
+<strong>Mentoring and Leading Teams:</strong><br>
+I have provided training and guidance to junior team members, fostering a culture of continuous improvement and best practices in data visualization and analytics. This leadership ensures that high standards are maintained throughout project lifecycles.
+</p>
+<p>
+<strong>Championing Best Practices:</strong><br>
+I have consistently promoted data governance, security, and quality assurance measures, ensuring that every solution is robust, secure, and aligned with strategic business objectives.
+</p>
+<p>
+These experiences demonstrate my commitment to bridging the gap between raw data and actionable insights, while also highlighting my ability to lead teams and drive process improvements using modern BI tools and methodologies.
+<p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">surendranadhilla3699@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">https://www.linkedin.com/in/nadh-illa-0236a0351/</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
